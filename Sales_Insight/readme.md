@@ -131,6 +131,11 @@ ORDER BY
 
 ---
 
+## Connect Database with Power BI
+we will plug mysql database with Power BI.
+
+## Data cleaning and ETL
+In power BI we will do data cleaning and ETL (Extract, transform, load). This process is also known as data munging or data wrangling. We will do currency normalization, handle invalid values, etc.
 ## Summary
 The queries above provide valuable insights into sales performance, customer activity, and product trends. By leveraging MySQL Workbench, the data exploration workflow allows for a clear understanding of:
 
