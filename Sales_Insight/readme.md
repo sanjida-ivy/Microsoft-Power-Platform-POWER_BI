@@ -9,10 +9,14 @@ This project involves working with the **Sales** database containing the followi
 - `products`
 - `transactions`
 
+![Database Schema](path/to/database_schema_image.png)
+
 ## Data Exploration with SQL (MySQL Workbench)
 
 ### Inspecting Table Structures and Relationships
 Before running queries, the table structures and their relationships were inspected to understand the schema.
+
+![Table Relationships](path/to/table_relationships_image.png)
 
 ### Running Queries to Analyze and Understand the Data
 Below are the key queries used to explore and analyze the data:
@@ -96,6 +100,8 @@ The queries above provide valuable insights into sales performance, customer act
 - Inactive customers for targeted engagement.
 - High-performing products across various markets.
 
+![Sales Insights Summary](path/to/sales_summary_image.png)
+
 ---
 
 ### Tools Used
@@ -104,4 +110,4 @@ The queries above provide valuable insights into sales performance, customer act
 
 ---
 
-**Author:** Sanjida Islam Ivy
+**Author:** Sanjida Islam Ivy 
