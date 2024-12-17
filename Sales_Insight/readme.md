@@ -132,7 +132,7 @@ ORDER BY
 ---
 
 ## Connect Database with Power BI
-we will plug mysql database with Power BI.
+Select 'Get Data from Another Source', choose MySQL Database, and enter the login credentials to connect.
 
 ## Data cleaning and ETL
 In power BI we will do data cleaning and ETL (Extract, transform, load). This process is also known as data munging or data wrangling. We will do currency normalization, handle invalid values, etc.
