@@ -135,7 +135,7 @@ ORDER BY
 Select 'Get Data from Another Source', choose MySQL Database, and enter the login credentials to connect.
 
 ## Data cleaning and ETL
-In power BI we will do data cleaning and ETL (Extract, transform, load). This process is also known as data munging or data wrangling. We will do currency normalization, handle invalid values, etc.
+In Power BI, data cleaning and ETL (Extract, Transform, Load), also known as data munging or data wrangling, are carried out. The process includes handling invalid values, such as removing rows with null entries in the "Zone" column and filtering out sales transactions with sales amounts of 0 or -1. Currency normalization is also applied by converting all values to INR. These steps complete the ETL process for the dataset.
 ## Summary
 The queries above provide valuable insights into sales performance, customer activity, and product trends. By leveraging MySQL Workbench, the data exploration workflow allows for a clear understanding of:
 
