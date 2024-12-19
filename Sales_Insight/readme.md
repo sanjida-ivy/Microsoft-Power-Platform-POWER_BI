@@ -136,14 +136,14 @@ Select 'Get Data from Another Source', choose MySQL Database, and enter the logi
 
 ## Data cleaning and ETL
 In Power BI, data cleaning and ETL (Extract, Transform, Load), also known as data munging or data wrangling, are carried out. The process includes handling invalid values, such as removing rows with null entries in the "Zone" column and filtering out sales transactions with sales amounts of 0 or -1. Currency normalization is also applied by converting all values to INR. These steps complete the ETL process for the dataset.
-## Summary
-The queries above provide valuable insights into sales performance, customer activity, and product trends. By leveraging MySQL Workbench, the data exploration workflow allows for a clear understanding of:
+## Power BI Dashboard
+In addition to MySQL data exploration, a Power BI dashboard was developed to provide a dynamic and visual representation of sales data. Key features of the dashboard include:
 
-- Market and product category sales.
-- Top customers by transaction volume and total spending.
-- Monthly sales patterns.
-- Inactive customers for targeted engagement.
-- High-performing products across various markets.
+Dynamic Revenue Display: Total revenue updates based on selected years and companies.
+Sales Quantity Metrics: Sales quantity visualized by customer name.
+Revenue Trends: A line chart showcasing revenue over time.
+Top Performers: Insights into the top 10 companies and products, grouped by zone.
+This interactive dashboard enhances data accessibility and allows stakeholders to quickly identify trends and opportunities.
 
 ![Sales Insights Summary](../Sales_Insight/Dashboard.png)
 
@@ -152,7 +152,8 @@ The queries above provide valuable insights into sales performance, customer act
 ### Tools Used
 - **Database Management System:** MySQL
 - **SQL Query Interface:** MySQL Workbench
+- **Data Visualization Tool:** Power BI
+- **ETL and Data Cleaning:** Power BI
+ 
 
 ---
-
-**Author:** Sanjida Islam Ivy 
