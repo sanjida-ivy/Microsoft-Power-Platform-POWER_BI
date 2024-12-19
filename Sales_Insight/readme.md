@@ -145,7 +145,7 @@ The queries above provide valuable insights into sales performance, customer act
 - Inactive customers for targeted engagement.
 - High-performing products across various markets.
 
-![Sales Insights Summary](Sales_Insight/Dashboard.png)
+![Sales Insights Summary](../Sales_Insight/Dashboard.png)
 
 ---
 
